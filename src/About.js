@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import AboutPhoto from './about-photo.jpg';
 import Resume from './resume-2018.pdf';
+import Mailto from 'react-protected-mailto';
 
 class About extends Component {
 
@@ -15,8 +16,12 @@ class About extends Component {
 						<div className='col s8 offset-s2 center qna'>
 							<h3>Emily "Lemon" Garrett</h3>
 							<div className='myinfo'>
-								<p>Seattle, WA | 805 235 6282</p>
-								<p>e.marie.garrett@gmail.com</p>
+								<p>Seattle, WA | <Mailto tel='805-235-6282' /></p>
+								<p><Mailto
+							      email='e.marie.garrett@gmail.com'
+							      headers={
+							        {subject:'Hello, Lemon!'}
+							      }/></p>
 								<a href={Resume} target='_blank'><i className="material-icons white-text about-resume">file_download</i></a>
 								<br />
 								<span className='grey-text last'>(Here's my resume again.)</span>

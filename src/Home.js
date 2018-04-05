@@ -148,16 +148,16 @@ class Home extends Component {
 									<div className='col s6 offset-s3'>
 										<form action="https://formspree.io/e.marie.garrett@gmail.com" method="POST">
 										    <label htmlFor='name'>Your Name: </label>
-										    <input type="text" className='browser-default inputs' name="name"/>
+										    <input type="text" className='browser-default inputs' name="name" placeholder="ex: Jane Doe, My Company Inc."/>
 										    <br />
 										    <label htmlFor='_replyto'>Your Email: </label>
-										    <input type="email" className='browser-default inputs' name="_replyto"/>
+										    <input type="email" className='browser-default inputs' name="_replyto" placeholder="ex: dogs_r_great@example.com"/>
 										    <br />
 										    <label htmlFor='_subject'>Subject: </label>
-										    <input type="text" name="_subject" className='browser-default' defaultValue="Hey!" />
-										    <textarea name="message" className='browser-default textareainput' placeholder="Your message"></textarea>
+										    <input type="text" name="_subject" className='browser-default subject' defaultValue="Hey!" placeholder="Hey! You're great!" />
+										    <textarea name="message" className='browser-default textareainput' placeholder="Hello there, Lemon, let's chat!"></textarea>
 										    <input type="text" name="_gotcha" className='gotcha' />
-										    <input type="submit" className='btn' value="Send"/>
+										    <input type="submit" className='btn waves-effect waves-light' value="Send"/>
 										</form>
 									</div>
 								</div>

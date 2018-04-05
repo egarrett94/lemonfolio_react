@@ -406,6 +406,10 @@ nav {
 	color: #5f6c73;
 }
 
+.about-page a {
+	color: #5f6c73!important;
+}
+
 .qna, .form-container {
 	position: relative;
 	padding: 15px!important;
@@ -500,6 +504,9 @@ input {
 	margin: 15px 0;
 	padding: 5px;
 	width: 100%;
+	background-color: rgba(255,255,255, 0.1);
+	color: white;
+	border: lightgrey inset 2px;
 }
 
 .about-resume {
@@ -512,7 +519,9 @@ input {
 
 textarea {
 	width: 100%;
-	background-color: white;
+	background-color: rgba(255,255,255, 0.1);
+	color: white;
+	border: lightgrey inset 2px;
 }
 
 footer {
