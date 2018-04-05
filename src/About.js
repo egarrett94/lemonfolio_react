@@ -17,7 +17,7 @@ class About extends Component {
 							<div className='myinfo'>
 								<p>Seattle, WA | 805 235 6282</p>
 								<p>e.marie.garrett@gmail.com</p>
-								<a href={Resume} target='_blank'><i className="material-icons white-text">file_download</i></a>
+								<a href={Resume} target='_blank'><i className="material-icons white-text about-resume">file_download</i></a>
 								<br />
 								<span className='grey-text last'>(Here's my resume again.)</span>
 								<br />

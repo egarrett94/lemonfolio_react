@@ -105,7 +105,9 @@ nav ul li a:hover {
 	.se-content h3 {
 		font-size: 6vmin;
 	}
-
+	.mats-tech-lists  {
+		text-align: center!important;
+	}
 }
 
 .social {
@@ -300,6 +302,10 @@ nav {
 	padding: 150px 100px 350px 100px;
 }
 
+.form-container {
+	background-color:  #5f6c73!important;
+}
+
 
 
 
@@ -374,11 +380,9 @@ nav {
 	text-align: center;
 }
 
-.mats-tech-lists  {
-	text-align: left!important;
-}
-
-
+/*.mats-tech-lists  {
+	text-align: left!import;
+}*/
 
 /*about page bullshit*/
 
@@ -402,7 +406,7 @@ nav {
 	color: #5f6c73;
 }
 
-.qna {
+.qna, .form-container {
 	position: relative;
 	padding: 15px!important;
 	margin: 50px 100px;
@@ -412,7 +416,7 @@ nav {
 	box-sizing: border-box;
 }
 
-.qna:after {
+.qna:after, .form-container:after {
   content: "";
   display: block;
   position: absolute;
@@ -424,7 +428,7 @@ nav {
   transform: rotate(135deg);
 }
 
-.qna:before {
+.qna:before, .form-container:before {
   content: "";
   display: block;
   position: absolute;
@@ -482,4 +486,44 @@ nav {
 
 .last {
 	margin-bottom: 20px!important;
+}
+
+.gotcha {
+	display: none;
+}
+
+form {
+	margin: 40px 60px;
+}
+
+input {
+	margin: 15px 0;
+	padding: 5px;
+	width: 100%;
+}
+
+.about-resume {
+	color: #0291ad!important;
+}
+
+.btn {
+	background-color: #0291ad!important;
+}
+
+textarea {
+	width: 100%;
+	background-color: white;
+}
+
+footer {
+	background: transparent;
+	color: white!important;
+	position: absolute;
+	bottom: 0;
+	z-index: 15;
+	margin: 0 auto;
+}
+
+footer p {
+	margin-left: 20px;
 }

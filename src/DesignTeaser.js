@@ -42,7 +42,7 @@ class DesignTeaser extends Component {
 				</div>
 				<div className='col s12 m8 l3 offset-m2'>
 					<h3>Tools</h3>
-					<ul className='mats-tech-lists browser-default'>
+					<ul className='mats-tech-lists'>
 						{this.props.materials}
 					</ul>
 				</div>

@@ -144,10 +144,30 @@ class Home extends Component {
 							<article className="se-content">
 								<img src='https://www.iconspng.com/uploads/lemon-tree-2/lemon-tree-2.png' className='lemontree2' alt='lemon tree' />
 								<h3>CONTACT</h3>
-								<p>Some text</p>
+								<div className='form-container col s12 m8 offset-m2'>
+									<div className='col s6 offset-s3'>
+										<form action="https://formspree.io/e.marie.garrett@gmail.com" method="POST">
+										    <label htmlFor='name'>Your Name: </label>
+										    <input type="text" className='browser-default inputs' name="name"/>
+										    <br />
+										    <label htmlFor='_replyto'>Your Email: </label>
+										    <input type="email" className='browser-default inputs' name="_replyto"/>
+										    <br />
+										    <label htmlFor='_subject'>Subject: </label>
+										    <input type="text" name="_subject" className='browser-default' defaultValue="Hey!" />
+										    <textarea name="message" className='browser-default textareainput' placeholder="Your message"></textarea>
+										    <input type="text" name="_gotcha" className='gotcha' />
+										    <input type="submit" className='btn' value="Send"/>
+										</form>
+									</div>
+								</div>
 							</article>
 						</div>
+						<footer>
+							<p>&copy; Emily Garrett 2018</p>
+						</footer>
 				</section>
+
 			</div>
 		)
 	}
