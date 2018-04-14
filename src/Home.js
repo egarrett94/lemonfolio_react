@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import TwentyTwenty from 'react-twentytwenty';
 import MeReal from './me_real2.jpg';
 import MePainting from './emily2.png';
+import LemonTree from './lemon-tree.png';
 import {
 	BrowserRouter as Router,
 	Route,
 	Link
 } from 'react-router-dom';
 import Resume from './resume-2018.pdf';
-
 class Home extends Component {
 
 	render() {
@@ -50,6 +50,7 @@ class Home extends Component {
 						</div>
 						<div className="se-slope">
 							<article className="se-content">
+								<img src={LemonTree} className='lemontree1' alt='lemon tree' />
 								<h3 className='quote'>— “ —</h3>
 								<p>I am passionate about taking the opportunity to utilize 
 								the endless resources that technology provides to help 
@@ -142,7 +143,7 @@ class Home extends Component {
 
 						<div className="se-slope">
 							<article className="se-content">
-								<img src='https://www.iconspng.com/uploads/lemon-tree-2/lemon-tree-2.png' className='lemontree2' alt='lemon tree' />
+								<img src={LemonTree} className='lemontree2' alt='lemon tree' />
 								<h3>CONTACT</h3>
 								<div className='form-container col s12 m8 offset-m2'>
 									<div className='col s6 offset-s3'>
