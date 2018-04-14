@@ -78,7 +78,7 @@ nav ul li a:hover {
 .links a {
 	display: inline-block;
 	margin: 12px 20px;
-	font-size: 30px;
+	font-size: 30px!important;
 	color: #5f6c73;
 }
 
@@ -95,7 +95,7 @@ nav ul li a:hover {
 @media (max-width: 463px){
 	.links a{
 		margin: 20px 10px;
-		font-size: 18px;
+		font-size: 5vmin!important;
 	}
 	.name-section{
 		padding-top: -100px!important;
@@ -107,6 +107,47 @@ nav ul li a:hover {
 	}
 	.mats-tech-lists  {
 		text-align: center!important;
+	}
+
+	.form-container{
+		margin: 50px 0px!important;
+		padding: 0;
+	}
+	.contact-form {
+		margin: 5px!important;
+	}
+	.skills h5 {
+		font-size: 4vmin;
+	}
+	.skills li {
+		font-size: 3vmin;
+	}
+	.skills {
+		padding: 0 50px!important;
+	}
+	.mockup {
+		width: 100vw!important;
+		height: auto!important;
+	}
+	.projects-page h3{
+		font-size: 6vmin!important;
+	}
+}
+
+@media(max-width: 934px) {
+	.about-photo {
+		display: none;
+	}
+	.qna-section {
+		width: 100vw!important;
+	}
+
+	.qna {
+		margin: 0 auto;
+	}
+
+	.question {
+		font-size: 3vmin!important;
 	}
 }
 

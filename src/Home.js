@@ -146,7 +146,7 @@ class Home extends Component {
 								<h3>CONTACT</h3>
 								<div className='form-container col s12 m8 offset-m2'>
 									<div className='col s6 offset-s3'>
-										<form action="https://formspree.io/e.marie.garrett@gmail.com" method="POST">
+										<form className='contact-form' action="https://formspree.io/e.marie.garrett@gmail.com" method="POST">
 										    <label htmlFor='name'>Your Name: </label>
 										    <input type="text" className='browser-default inputs' name="name" placeholder="ex: Jane Doe, My Company Inc."/>
 										    <br />

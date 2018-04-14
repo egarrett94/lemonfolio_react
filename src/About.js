@@ -12,7 +12,7 @@ class About extends Component {
 				<Nav />
 				
 				<div className='row about-info'>
-					<div className='col s8 center'>
+					<div className='col s8 center qna-section'>
 						<div className='col s8 offset-s2 center qna'>
 							<h3>Emily "Lemon" Garrett</h3>
 							<div className='myinfo'>
