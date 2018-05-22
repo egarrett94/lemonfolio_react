@@ -31,7 +31,7 @@ class DesignTeaser extends Component {
 
 					{/* image goes here for the laptop/phone mockups */}
 					<div className='art-frame center'>
-						<img className='art' onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgUrl} alt='project mockup' />
+						<img className='art' onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgUrl} alt='design mockup' />
 					</div>
 					<br />
 					<span className='grey-text'>(Hover to see more.)</span>
