@@ -4,21 +4,26 @@ import ProjectTeaser from './ProjectTeaser';
 import froggoUrlLaptop from './froggo_laptop_mockup.png';
 import chompsUrlLaptop from './chomps_laptop_mockup.png';
 import equallyUrlLaptop from './equally_laptop_mockup.png';
+import gnrestroomsUrlLaptop from './laptop-gnrestrooms.png';
 import froggoPhone from './froggo_phone_mockup.png';
 import chompsPhone from './chomps_phone_mockup.png';
 import equallyPhone from'./equally_phone_mockup.png';
+import gnrestroomsPhone from './phone-gnrestrooms.png';
 
 const froggoTech = ['HTML5', 'CSS3', 'HTML5 Canvas', 'JavaScript']
 const chompsTech = ['Node', 'Express', 'HTML5/CSS3', 'Materialize', 'PostgreSQL/Sequelize', 'JavaScript', 'jQuery', 'BCrypt', 'EJS']
 const equallyTech = ['React', 'Redux', 'Socket.io', 'Materialize/React-Materialize', 'Express', 'MongoDB', 'Mongoose', 'Axios', 'Node']
+const gnrestroomsTech = ['React', 'React-Mapbox', 'HTML5/CSS3', 'JavaScript']
 
 const froggoLiveLink = 'http://egarrett94.github.io/froggo'
 const chompsLiveLink = 'http://choosychomps.herokuapp.com'
 const equallyLiveLink = 'http://equally.herokuapp.com'
+const gnrestroomsLiveLink = 'http://gnrestrooms.herokuapp.com'
 
 const froggoGit = 'http://www.github.com/egarrett94/froggo'
 const chompsGit = 'http://www.github.com/egarrett94/choosy-chomps'
 const equallyGit = 'http://www.github.com/kyleavb/equally'
+const gnrestroomsGit = 'http://www.github.com/egarrett94/gnrestrooms'
 
 class Projects extends Component {
 	render() {
@@ -32,6 +37,10 @@ class Projects extends Component {
 		);
 
 		const equallyList = equallyTech.map((tech) =>
+		  <li>{tech}</li>
+		);
+
+		const gnrestroomsList = gnrestroomsTech.map((tech) =>
 		  <li>{tech}</li>
 		);
 
@@ -60,6 +69,13 @@ class Projects extends Component {
 					technologies={froggoList}
 					livelink={froggoLiveLink}
 					gitlink={froggoGit} />
+				<ProjectTeaser name='GNRestrooms'
+					imgurl1={gnrestroomsUrlLaptop}
+					imgurl2={gnrestroomsPhone}
+					description='GNRestrooms is an app using React and Mapbox with the RefugeRestrooms API to provide the user with the locations of nearby gender-neutral restrooms.'
+					technologies={gnrestroomsList}
+					livelink={gnrestroomsLiveLink}
+					gitlink={gnrestroomsGit} />
 			</div>
 		)
 	}
