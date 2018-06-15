@@ -430,7 +430,7 @@ nav {
 
 .about-photo {
 	background-image: url('about-photo.jpg');
-	height: 120vh;
+	height: 130vh;
 	background-size: cover;
 	border-left: #fcc921 solid 5px;
 }
