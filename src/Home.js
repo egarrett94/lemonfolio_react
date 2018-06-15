@@ -34,7 +34,7 @@ class Home extends Component {
 								<h3>EMILY GARRETT</h3>
 								<br/>
 								<marquee behavior='scroll' direction='left' className='marquee' scrollamount='3'>
-									Front-End Web Dev <span className='white-text'>|</span> Artist Extraordinaire <span className='white-text'>|</span> Dog Petting Champion
+									Full Stack Web Dev <span className='white-text'>|</span> Artist Extraordinaire <span className='white-text'>|</span> Dog Petting Champion
 								</marquee>
 								<br/>
 								<a href='http://www.github.com/egarrett94'><i id='github' className="fa fa-github social"></i></a>
